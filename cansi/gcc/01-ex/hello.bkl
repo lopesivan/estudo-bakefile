@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<makefile>
+  <set var="CC">clang</set>
+
+  <exe id="hello">
+    <sources>src/main.c</sources>
+    <include>src</include>
+  </exe>
+</makefile>
+
