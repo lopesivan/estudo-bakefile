@@ -1,0 +1,11 @@
+toolsets = gnu vs2010;
+
+vs2010.solutionfile = hello_world_vs2010.sln;
+
+program hello {
+    archs = x86 x86_64;
+    sources { hello.c }
+    defines += "SALUTATION=\"Hello\"";
+
+    vs2010.projectfile = hello_vs2010.vcxproj;
+}
