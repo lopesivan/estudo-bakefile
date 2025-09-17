@@ -1,2 +1,0 @@
-Unable to change virtual machine power state: The IDE device (disks/CD-ROM) configuration is incorrect. There is an IDE slave with no master at 'ide1:1'. This configuration does not work correctly in virtual machines. Move the disk/CD-ROM from 'ide1:1' to 'ide1:0' using the configuration editor.
-Failed to start the virtual machine.
